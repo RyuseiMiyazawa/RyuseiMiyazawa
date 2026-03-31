@@ -1,73 +1,14 @@
 # Ryusei Miyazawa
 
-バックエンド実装を中心に、HTTP API、CLI、データ処理系の小規模プロジェクトを継続的に公開しています。
+TypeScript / Next.jsを中心としたフロントエンドから、FastAPI / Laravelによるバックエンド、AWS（Lambda / S3）を活用したサーバーレス構成まで一貫して対応可能なフルスタックエンジニアです。
+業務委託として複数案件に参画し、人事系プラットフォームや業務管理システムの開発において、設計から実装・改善まで担当してきました。
 
-## Backend API
+バックエンドでは、Java（Spring Boot）を用いた業務管理システムのAPI開発に従事し、車両情報や顧客情報のCRUD機能、査定依頼機能の実装を担当しました。加えて、SQLチューニング（インデックス設計・クエリ最適化）による検索性能の改善や、エラーハンドリングの統一・リファクタリングを行い、システムのパフォーマンスおよび保守性向上に貢献しています。
 
-- [quocard-book-api](https://github.com/RyuseiMiyazawa/quocard-book-api)
-  - Kotlin / Spring Boot / jOOQ / Flyway / PostgreSQL
-  - 書籍管理システムのバックエンド API
-- [go-status-api](https://github.com/RyuseiMiyazawa/go-status-api)
-  - Go
-  - `/health` `/status` を提供するシンプルな API
-- [go-profile-api](https://github.com/RyuseiMiyazawa/go-profile-api)
-  - Go
-  - プロフィール情報を返すシンプルな API
-- [java-task-api](https://github.com/RyuseiMiyazawa/java-task-api)
-  - Java
-  - タスク一覧を返すシンプルな API
-- [java-metrics-api](https://github.com/RyuseiMiyazawa/java-metrics-api)
-  - Java
-  - メトリクスを返すシンプルな API
-- [typescript-notes-api](https://github.com/RyuseiMiyazawa/typescript-notes-api)
-  - TypeScript
-  - ノート一覧を返すシンプルな API
-- [typescript-events-api](https://github.com/RyuseiMiyazawa/typescript-events-api)
-  - TypeScript
-  - イベント一覧を返すシンプルな API
-- [kotlin-bookmark-api](https://github.com/RyuseiMiyazawa/kotlin-bookmark-api)
-  - Kotlin
-  - ブックマーク一覧を返すシンプルな API
-- [python-reminder-api](https://github.com/RyuseiMiyazawa/python-reminder-api)
-  - Python
-  - リマインダー一覧を返すシンプルな API
+フロントエンドではNext.js / ReactによるUI実装を担当し、API連携を前提としたデータ取得・整形・表示ロジックの設計を強みとしています。また、FastAPI / Laravelを用いたREST APIの設計・開発や、Dockerによる開発環境構築、AWSを用いたインフラ構成にも対応しており、開発から運用まで一貫して携わってきました。
 
-## Utility / CLI
+さらに、Flutterを用いたBtoB向けモバイルアプリ開発にも従事し、業務システムと連携した車両管理・査定依頼機能の実装を担当。現場利用を前提としたUI/UX設計や、通信エラー時のリトライ処理など、安定性を考慮した設計・実装を行っています。
 
-- TypeScript
-  - [typescript-query-builder](https://github.com/RyuseiMiyazawa/typescript-query-builder)
-  - [typescript-env-diff](https://github.com/RyuseiMiyazawa/typescript-env-diff)
-  - [typescript-csv-columns](https://github.com/RyuseiMiyazawa/typescript-csv-columns)
-  - [typescript-tag-counter](https://github.com/RyuseiMiyazawa/typescript-tag-counter)
-  - [typescript-date-window](https://github.com/RyuseiMiyazawa/typescript-date-window)
-- Kotlin
-  - [kotlin-study-timer](https://github.com/RyuseiMiyazawa/kotlin-study-timer)
-  - [kotlin-gradebook](https://github.com/RyuseiMiyazawa/kotlin-gradebook)
-  - [kotlin-reading-list](https://github.com/RyuseiMiyazawa/kotlin-reading-list)
-  - [kotlin-meeting-cost](https://github.com/RyuseiMiyazawa/kotlin-meeting-cost)
-  - [kotlin-url-categorizer](https://github.com/RyuseiMiyazawa/kotlin-url-categorizer)
-- Go
-  - [go-json-flattener](https://github.com/RyuseiMiyazawa/go-json-flattener)
-  - [go-time-buckets](https://github.com/RyuseiMiyazawa/go-time-buckets)
-- Rust
-  - [rust-password-policy](https://github.com/RyuseiMiyazawa/rust-password-policy)
-  - [rust-slug-checker](https://github.com/RyuseiMiyazawa/rust-slug-checker)
-- PHP
-  - [php-log-parser](https://github.com/RyuseiMiyazawa/php-log-parser)
-  - [php-csv-summary](https://github.com/RyuseiMiyazawa/php-csv-summary)
-- C#
-  - [csharp-expense-splitter](https://github.com/RyuseiMiyazawa/csharp-expense-splitter)
-  - [csharp-score-aggregator](https://github.com/RyuseiMiyazawa/csharp-score-aggregator)
-- Java
-  - [java-text-analyzer](https://github.com/RyuseiMiyazawa/java-text-analyzer)
-  - [java-schedule-summary](https://github.com/RyuseiMiyazawa/java-schedule-summary)
-- Python
-  - [py-budget-tracker](https://github.com/RyuseiMiyazawa/py-budget-tracker)
-  - [python-json-sorter](https://github.com/RyuseiMiyazawa/python-json-sorter)
+加えて、ChatGPT / Claude / CursorなどのAIツールを日常的に開発プロセスへ組み込み、設計検討・コード生成・レビュー・リファクタリングに活用しています。OpenAI APIを用いたOCR処理やデータ整形の自動化も実装しており、AIを実装レベルで活用することで開発効率と品質の向上を実現してきました。
 
-## Focus
-
-- バックエンド API 実装
-- 型安全性を意識した実装
-- 小さく完結するプロジェクトを継続的に公開
-- README とテストを含めた再現可能な形での公開
+今後はフルスタックとしての技術力をさらに高めるとともに、アーキテクチャ設計や技術選定といった上流工程にも関与し、プロダクトの価値最大化に貢献できるエンジニアを目指しています。
